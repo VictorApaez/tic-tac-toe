@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+h2 {
+}
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+.cell {
+  border: 2px solid black;
+}
+.cell:hover {
+  cursor: pointer;
+}
+button {
+  padding: 5px 15px;
+}
+button:hover {
+  cursor: pointer;
+}
